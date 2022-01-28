@@ -2,17 +2,38 @@ body {
     font-family: "Bebas Neue", cursive;
 }
 
+.kosong{
+  height: 2000px;
+}
+
 .sosmed{
     background: #000;
     height: fit-content;
 }
 i{
   color: white;
-  size: 40px;
+  margin-top: 10px;
 }
 
-.card{
+.produk .card{
   margin-top: 20px;
+  background: #000;
+  margin: 5px;
+}
+
+
+
+.produk .card:hover{
+  background: rgb(215, 221, 236);
+}
+
+.desc{
+  background: #000;
+  margin-top: 50px;
+}
+
+.desc h5, .h6{
+  color: white;
 }
 
 a{
@@ -20,9 +41,12 @@ a{
 }
 
 a:hover{
-  color: gray;
+  color: rgb(26, 26, 26);
 }
 
+.mg-sm{
+  margin: 10px;
+}
 .mg-lg{
     margin: 50px;
 }
