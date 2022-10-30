@@ -23,6 +23,12 @@ i{
   margin: 5px;
 }
 
+.voucher .card{
+  margin-top: 20px;
+  background: #000;
+  margin: 5px;
+}
+
 
 
 .produk .card:hover{
@@ -80,3 +86,4 @@ a:hover{
   font-family: 'Bebas Neue', cursive;
 
 }
+
